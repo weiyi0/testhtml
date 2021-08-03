@@ -1,0 +1,1 @@
+import{aC as t}from"./index.a2c08dd2.js";var a,e;(e=a||(a={})).UICList="/uic/getUICList",e.NewUIC="/uic/newUIC",e.GetWMCDetail="/uic/getWMCDetail";const i=()=>t.get({url:a.UICList}),s=(e,i)=>{const s={isv_application_id:e,code_count:i};return t.post({url:a.NewUIC,params:s})},r=e=>t.get({url:a.GetWMCDetail,params:{id:e}});export{r as a,i as g,s as n};
